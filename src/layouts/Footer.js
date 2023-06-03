@@ -22,8 +22,9 @@ const Footer = ({ extraClass }) => {
                     <div className="our-info">
                       <div className="text">
                         <p>
-                          Sed ut perspiciatis unde omnis iste natus error sit
-                          voluptatem accusanum doloremue laudantiue totame
+                          Charity Foundation is committed to addressing crucial
+                          global challenges and making a positive impact in the
+                          lives of individuals and communities around the world.
                         </p>
                       </div>
                     </div>
