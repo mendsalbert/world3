@@ -248,8 +248,9 @@ const Index = () => {
                 <div className="content">
                   <h4>Charity For Live</h4>
                   <div className="text">
-                    Sit amet consectetur adipiscing elit sed do eiusmod tempor
-                    incididunt
+                    Charity For Life encompasses our commitment to supporting
+                    various charitable causes and initiatives that address
+                    critical societal issues...
                   </div>
                   <Link href="/about">
                     <a className="button">
