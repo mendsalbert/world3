@@ -42,15 +42,7 @@ const Footer = ({ extraClass }) => {
                           <div className="icon">
                             <i className="far fa-envelope" />
                           </div>
-                          <div className="text">hotline@gmail.com</div>
-                        </li>
-                        <li>
-                          <div className="icon">
-                            <i className="far fa-phone" />
-                          </div>
-                          <div className="text">
-                            4486 Richards Avenue, Modesto CA - 95354
-                          </div>
+                          <div className="text">world3io@gmail.com</div>
                         </li>
                       </ul>
                     </div>
