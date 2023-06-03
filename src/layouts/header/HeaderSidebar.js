@@ -14,14 +14,9 @@ const HeaderSidebar = ({ open, close }) => {
             >
               <span className="far fa-times" />
             </div>
-            <div className="about-widget widget">
-              <div className="logo">
-                <img src="assets/images/world3-logo.png" alt="" width={50} />{" "}
-              </div>
-              <div className="text">Donation History</div>
-            </div>
+
             <div className="footer-widget-item recent-news-widget widget">
-              <h4>Instagram Feeds</h4>
+              <h4>Donation History</h4>
               <div className="footer-widget-news">
                 <ul>
                   <li>
