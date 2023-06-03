@@ -20,7 +20,11 @@ const Layouts = ({ children, noHeader, noFooter }) => {
   return (
     <div className="page-wrapper">
       <Head>
-        <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+        <link
+          rel="icon"
+          href="assets/images/world3-logo.png"
+          type="image/x-icon"
+        />
       </Head>
       <VideoPopup />
       <ImageView />
