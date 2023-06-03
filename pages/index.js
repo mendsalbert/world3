@@ -99,7 +99,7 @@ const Index = () => {
                 </div>
                 <div className="inner-box">
                   <div className="link-btn">
-                    <Link href="/donation-list">
+                    <Link href="/donation-grid">
                       <a className="primary_btn">
                         Donation
                         <i className="far fa-heart" />
