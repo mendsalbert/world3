@@ -228,8 +228,8 @@ const Index = () => {
                 <div className="content">
                   <h4>Child Education</h4>
                   <div className="text">
-                    Sit amet consectetur adipiscing elit sed do eiusmod tempor
-                    incididunt
+                    Education is a powerful tool that can transform lives and
+                    break the cycle of poverty...
                   </div>
                   <Link href="/about">
                     <a className="button">
