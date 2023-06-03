@@ -386,9 +386,6 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/* Partner section */}
-      {/* <Patne rLogoSlider /> */}
-      {/* volunteer section */}
     </Layouts>
   );
 };
