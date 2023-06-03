@@ -301,11 +301,11 @@ const Index = () => {
                   <img src="assets/images/resource/Child.jpg" alt="" />
                 </div>
                 <div className="inner-box">
-                  <h4>
+                  {/* <h4>
                     <Link href="/gallery">
                       <a>Happy Child Group</a>
                     </Link>
-                  </h4>
+                  </h4> */}
                   <div className="text">Carity Fund</div>
                 </div>
               </div>
