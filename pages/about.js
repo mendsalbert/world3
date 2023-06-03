@@ -355,9 +355,6 @@ const About = () => {
                       voluptatem accusantium dolorem laudantiums totam aperiam
                     </div>
                     <div className="author-info">
-                      <div className="author-thumb">
-                        <img src="assets/images/resource/test.png" alt="" />
-                      </div>
                       <div className="author-content">
                         <div className="name">Steven M. Robinson</div>
                         <div className="designation">Business Manager</div>
@@ -375,9 +372,6 @@ const About = () => {
                       voluptatem accusantium dolorem laudantiums totam aperiam
                     </div>
                     <div className="author-info">
-                      <div className="author-thumb">
-                        <img src="assets/images/resource/test.png" alt="" />
-                      </div>
                       <div className="author-content">
                         <div className="name">Steven M. Robinson</div>
                         <div className="designation">Business Manager</div>
