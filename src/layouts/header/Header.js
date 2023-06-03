@@ -69,7 +69,7 @@ const Header = () => {
                           </Link>
                         </li>
 
-                        <Contact />
+                        {/* <Contact /> */}
                       </ul>
                     </div>
                   </nav>
