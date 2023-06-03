@@ -29,11 +29,6 @@ const About = () => {
                 <div className="image">
                   <img src="assets/images/resource/about-5-2.jpg" alt="" />
                 </div>
-                <div className="content-box">
-                  <h4>
-                    25 Years Of <br /> Experience In <br /> Charity Fund
-                  </h4>
-                </div>
               </div>
             </div>
             <div className="col-lg-5 col-md-5">
