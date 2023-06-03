@@ -27,9 +27,7 @@ function MyApp({ Component, pageProps }) {
             href="assets/images/favicon.png"
             type="image/x-icon"
           />
-          <title>
-            Masden || charity & fundrising Responsive React NextJS Template
-          </title>
+          <title>Web3 </title>
         </Head>
         <Component {...pageProps} />
       </Fragment>
