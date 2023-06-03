@@ -387,7 +387,7 @@ const About = () => {
         </div>
       </section>
       {/* Partner section */}
-      <PatnerLogoSlider />
+      {/* <PatnerLogoSlider /> */}
       {/* volunteer section */}
       <section className="volunteer-section">
         <div className="theme_container">
