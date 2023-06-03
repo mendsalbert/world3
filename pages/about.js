@@ -116,7 +116,13 @@ const About = () => {
                 </div>
                 <h4>Pure Food &amp; Water</h4>
                 <div className="text">
-                  Sit amet consecetur adeisce <br /> eiusmod tempor incide
+                  Access to safe and nutritious food, as well as clean drinking
+                  water, is essential for the well-being and development of
+                  individuals. Our Pure Food & Water initiatives aim to support
+                  projects that promote sustainable agriculture, combat hunger,
+                  and provide access to clean water sources. Together, we can
+                  work towards a world where everyone has access to the basic
+                  necessities of life.{" "}
                 </div>
               </div>
             </div>
