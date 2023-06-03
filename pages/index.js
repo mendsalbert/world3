@@ -28,7 +28,7 @@ const Index = () => {
       {/*End Banner Section One */}
       {/* section about */}
       <section className="about">
-        <div className="top-title text-center">
+        {/* <div className="top-title text-center">
           <div
             className="wow slideInUp animated"
             data-wow-delay="0.1s"
@@ -43,7 +43,7 @@ const Index = () => {
               <span>Trusted Partners</span>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="logo">
           {/* <img src="assets/images/resource/icon-3.png" alt="" /> */}
         </div>
