@@ -43,11 +43,13 @@ const About = () => {
                   Raise Your Hand to Help <br /> Save The World{" "}
                 </h2>
                 <div className="text">
-                  Sed ut perspiciatis unde omnis iste natus error volup tatem
-                  accusantium doloremque laudantium, totam rem aperie eaque ipsa
-                  quae ab illo inventore veritatis et quasi architecto beatae
-                  vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                  voluptas sit aspernatur aut odit aut fugit
+                  Charity Foundation is committed to addressing crucial global
+                  challenges and making a positive impact in the lives of
+                  individuals and communities around the world. Through our
+                  platform, we have identified four key areas of focus: Pure
+                  Food & Water, Health & Medicine, Child Education, and Charity
+                  For Life. We believe that by addressing these fundamental
+                  needs, we can create a better future for all.
                 </div>
                 <ul>
                   <li>
