@@ -111,7 +111,7 @@ const Header = () => {
                   {/* <img src="assets/images/icons/icon-menu.png" alt="" /> */}
                 </div>
                 <Link href={"/donation-grid"}>
-                  <a href="#" className="primary_btn style-seven">
+                  <a href="/donation-grid" className="primary_btn style-seven">
                     Donations
                     <i className="far fa-heart" />
                   </a>
