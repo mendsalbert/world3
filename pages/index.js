@@ -56,7 +56,7 @@ const Index = () => {
                   About Company
                 </div>
                 <h2 className="sec-title mb-20">
-                  Rise Your Hand to Help <br /> The Poor Children{" "}
+                  Rise Your Hand to Help <br /> The Needy{" "}
                 </h2>
                 <div className="text">
                   Sorem ipsum dolor sit amet consectetur adipiscing elit sed do
