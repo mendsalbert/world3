@@ -40,7 +40,7 @@ const About = () => {
                   Why Choose Us
                 </div>
                 <h2 className="sec-title mb-20">
-                  Raise Your Hand to Help <br /> Save Environment{" "}
+                  Raise Your Hand to Help <br /> Save The World{" "}
                 </h2>
                 <div className="text">
                   Sed ut perspiciatis unde omnis iste natus error volup tatem
