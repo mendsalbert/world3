@@ -137,10 +137,10 @@ const Header = () => {
           onClick={() => setSideBarToggle(false)}
         />
       </header>
-      <HeaderSidebar
+      {/* <HeaderSidebar
         open={sideBarToggle}
         close={() => setSideBarToggle(false)}
-      />
+      /> */}
       <HeaderSearch open={searchToggle} close={() => setSearchToggle(false)} />
     </Fragment>
   );
