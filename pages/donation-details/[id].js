@@ -323,6 +323,30 @@ const DonationDetails = () => {
         </div>
       </section>
       {/* Partner section */}
+      <section className="partner style-five">
+        <div className="theme_container">
+          <Swiper
+            {...fiveItemCarousel}
+            className="five-item-carousel owl-theme owl-carousel"
+          >
+            <SwiperSlide className="image">
+              <img src="../assets/images/resource/cta-6.png" alt="" />
+            </SwiperSlide>
+            <SwiperSlide className="image">
+              <img src="../assets/images/resource/cta-7.png" alt="" />
+            </SwiperSlide>
+            <SwiperSlide className="image">
+              <img src="../assets/images/resource/cta-8.png" alt="" />
+            </SwiperSlide>
+            <SwiperSlide className="image">
+              <img src="../assets/images/resource/cta-9.png" alt="" />
+            </SwiperSlide>
+            <SwiperSlide className="image">
+              <img src="../assets/images/resource/cta-10.png" alt="" />
+            </SwiperSlide>
+          </Swiper>
+        </div>
+      </section>
     </Layouts>
   );
 };
