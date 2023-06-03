@@ -230,7 +230,7 @@ const Index = () => {
                   <div className="text">
                     Education is a powerful tool that can transform lives and
                     break the cycle of poverty. Our Child Education initiatives
-                    focus on providing quality
+                    focus on providing quality...
                   </div>
                   <Link href="/about">
                     <a className="button">
