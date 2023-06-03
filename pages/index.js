@@ -28,22 +28,7 @@ const Index = () => {
       {/*End Banner Section One */}
       {/* section about */}
       <section className="about">
-        {/* <div className="top-title text-center">
-          <div
-            className="wow slideInUp animated"
-            data-wow-delay="0.1s"
-            data-wow-duration="1500ms"
-          >
-            <div className="count-outer count-box">
-              {/* <span className="count-text" data-speed={3000} data-stop={25360}>
-                0
-              </span> */}
-              <Counter end={20} />
-              <span className="plus">+</span>
-              <span>Trusted Partners</span>
-            </div>
-          </div>
-        </div> */}
+        ]
         <div className="logo">
           {/* <img src="assets/images/resource/icon-3.png" alt="" /> */}
         </div>
