@@ -166,14 +166,10 @@ const Footer = ({ extraClass }) => {
             <div className="main-footer-bottom-inner">
               <ul>
                 <li>
-                  <Link href="/about">
-                    <a>Terms of use</a>
-                  </Link>
+                  <Link href="/about">{/* <a>Terms of use</a> */}</Link>
                 </li>
                 <li>
-                  <Link href="/about">
-                    <a>Privacy &amp; Policy</a>
-                  </Link>
+                  <Link href="/about">{/* <a>Privacy &amp; Policy</a> */}</Link>
                 </li>
               </ul>
               <div className="text">
