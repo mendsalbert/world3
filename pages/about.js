@@ -37,7 +37,7 @@ const About = () => {
                   <span className="title-sep-left">
                     <img src="assets/images/resource/icon-4.png" alt="" />
                   </span>
-                  Why Choose Us
+                  Why Donate
                 </div>
                 <h2 className="sec-title mb-20">
                   Raise Your Hand to Help <br /> Save The World{" "}
