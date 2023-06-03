@@ -165,12 +165,8 @@ const Footer = ({ extraClass }) => {
           <div className="theme_container">
             <div className="main-footer-bottom-inner">
               <ul>
-                <li>
-                  <Link href="/about">{/* <a>Terms of use</a> */}</Link>
-                </li>
-                <li>
-                  <Link href="/about">{/* <a>Privacy &amp; Policy</a> */}</Link>
-                </li>
+                <li></li>
+                <li></li>
               </ul>
               <div className="text">
                 <p>
