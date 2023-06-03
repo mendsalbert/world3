@@ -59,10 +59,15 @@ const Index = () => {
                   Rise Your Hand to Help <br /> The Needy{" "}
                 </h2>
                 <div className="text">
-                  Sorem ipsum dolor sit amet consectetur adipiscing elit sed do
-                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risucome viverra
-                  maecenas accumsan lacus vel facilisis.{" "}
+                  Our project, Charity Foundation, aims to make a positive
+                  impact in the world by connecting donors with meaningful
+                  causes. We believe that every act of giving has the power to
+                  change lives and create a better future for those in need.
+                  Through our platform, we provide a seamless and secure way for
+                  individuals to donate to various charitable campaigns and
+                  initiatives. We have partnered with trusted organizations and
+                  verified projects to ensure that your contributions go
+                  directly to the causes that matter to you.
                 </div>
                 <div className="icon-list">
                   <ul>
