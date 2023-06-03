@@ -187,8 +187,13 @@ const Index = () => {
                 <div className="content">
                   <h4>Pure Food &amp; Water</h4>
                   <div className="text">
-                    Sit amet consectetur adipiscing elit sed do eiusmod tempor
-                    incididunt
+                    Access to safe and nutritious food, as well as clean
+                    drinking water, is essential for the well-being and
+                    development of individuals. Our Pure Food & Water
+                    initiatives aim to support projects that promote sustainable
+                    agriculture, combat hunger, and provide access to clean
+                    water sources. Together, we can work towards a world where
+                    everyone has access to the basic necessities of life.
                   </div>
                   <Link href="/about">
                     <a className="button">
