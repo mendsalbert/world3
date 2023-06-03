@@ -18,10 +18,7 @@ const HeaderSidebar = ({ open, close }) => {
               <div className="logo">
                 <img src="assets/images/world3-logo.png" alt="" width={50} />{" "}
               </div>
-              <div className="text">
-                We Have Over 40 Payment Ways for Locking the Lowest Room Rates.
-                No Credit Card Needed! Read Reviews from Verified Guests.
-              </div>
+              <div className="text">Donation History</div>
             </div>
             <div className="footer-widget-item recent-news-widget widget">
               <h4>Instagram Feeds</h4>
