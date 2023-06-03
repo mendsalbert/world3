@@ -27,7 +27,7 @@ function MyApp({ Component, pageProps }) {
             href="assets/images/favicon.png"
             type="image/x-icon"
           />
-          <title>Web3 </title>
+          <title>World3 </title>
         </Head>
         <Component {...pageProps} />
       </Fragment>
