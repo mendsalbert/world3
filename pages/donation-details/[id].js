@@ -132,6 +132,9 @@ const DonationDetails = () => {
                   >
                     <div style={{ display: "flex", width: "100%" }}>
                       <button
+                        onClick={() => {
+                          addDonation(donation?.donationId, 1000);
+                        }}
                         style={{
                           backgroundColor: "#00ADB5",
                           color: "white",
@@ -142,6 +145,9 @@ const DonationDetails = () => {
                         $1000
                       </button>
                       <button
+                        onClick={() => {
+                          addDonation(donation?.donationId, 500);
+                        }}
                         style={{
                           backgroundColor: "#393E46",
                           color: "white",
@@ -152,6 +158,9 @@ const DonationDetails = () => {
                         $500
                       </button>
                       <button
+                        onClick={() => {
+                          addDonation(donation?.donationId, 100);
+                        }}
                         style={{
                           backgroundColor: "#222831",
                           color: "white",
