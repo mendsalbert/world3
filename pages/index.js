@@ -208,8 +208,8 @@ const Index = () => {
                 <div className="content">
                   <h4>Health &amp; Medicine</h4>
                   <div className="text">
-                    Sit amet consectetur adipiscing elit sed do eiusmod tempor
-                    incididunt
+                    We recognize the importance of quality healthcare services
+                    and medical assistance for those in need...
                   </div>
                   <Link href="/about">
                     <a className="button">
