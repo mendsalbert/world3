@@ -300,7 +300,6 @@ const Index = () => {
                 <div className="image">
                   <img src="assets/images/resource/Child.jpg" alt="" />
                 </div>
-                \
               </div>
             </div>
             <div className="col-lg-4 col-md-4 flex-box-one">
@@ -308,7 +307,6 @@ const Index = () => {
                 <div className="image">
                   <img src="assets/images/resource/Child-2.jpg" alt="" />
                 </div>
-                \
               </div>
             </div>
             <div className="col-lg-4 col-md-4">
@@ -316,7 +314,6 @@ const Index = () => {
                 <div className="image">
                   <img src="assets/images/resource/Child-3.jpg" alt="" />
                 </div>
-                \
               </div>
             </div>
             <div className="col-lg-8 col-md-8">
@@ -324,7 +321,6 @@ const Index = () => {
                 <div className="image">
                   <img src="assets/images/resource/Child-4.jpg" alt="" />
                 </div>
-                \
               </div>
             </div>
           </div>
