@@ -160,7 +160,13 @@ const About = () => {
                 </div>
                 <h4>Child Education</h4>
                 <div className="text">
-                  Sit amet consecetur adeisce <br /> eiusmod tempor incide
+                  Education is a powerful tool that can transform lives and
+                  break the cycle of poverty. Our Child Education initiatives
+                  focus on providing quality education opportunities to
+                  children, especially those from disadvantaged backgrounds. We
+                  support programs that enhance access to education, promote
+                  literacy, and empower children with knowledge and skills for a
+                  brighter future.{" "}
                 </div>
               </div>
             </div>
