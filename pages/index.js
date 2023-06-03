@@ -288,9 +288,7 @@ const Index = () => {
               </Link>
             </div>
             <div className="contact-info">
-              <div className="icon">
-                <i className="flaticon-phone" />
-              </div>
+              <
             </div>
           </div>
         </div>
