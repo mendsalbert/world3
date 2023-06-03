@@ -13,11 +13,7 @@ const FooterCounter = () => {
           <div className="col-lg-6">
             <div className="footer-counter-block">
               <div className="count-outer count-box">
-                <span
-                  className="count-text"
-                  data-speed={3000}
-                  data-stop={25360}
-                >
+                <span className="count-text" data-speed={100} data-stop={100}>
                   0
                 </span>
                 <Counter end={3000} />
