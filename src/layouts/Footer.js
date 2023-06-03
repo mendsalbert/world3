@@ -35,7 +35,7 @@ const Footer = ({ extraClass }) => {
                             <i className="far fa-map-marker-alt" />
                           </div>
                           <div className="text">
-                            4486 Richards Avenue, Modesto CA - 95354
+                            B27 Nkawbeng Stree , Sunayni GH
                           </div>
                         </li>
                         <li>
