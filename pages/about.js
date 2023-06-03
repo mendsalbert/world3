@@ -358,8 +358,7 @@ const About = () => {
                     </div>
                     <div className="author-info">
                       <div className="author-content">
-                        <div className="name">Steven M. Robinson</div>
-                        <div className="designation">Business Manager</div>
+                        <div className="name">Ahmed M.</div>
                       </div>
                     </div>
                   </div>
