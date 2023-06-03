@@ -118,11 +118,6 @@ const About = () => {
                 <div className="text">
                   Sit amet consecetur adeisce <br /> eiusmod tempor incide
                 </div>
-                <Link href="/about">
-                  <a>
-                    Read More <i className="far fa-arrow-right" />
-                  </a>
-                </Link>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
@@ -139,11 +134,6 @@ const About = () => {
                 <div className="text">
                   Sit amet consecetur adeisce <br /> eiusmod tempor incide
                 </div>
-                <Link href="/about">
-                  <a>
-                    Read More <i className="far fa-arrow-right" />
-                  </a>
-                </Link>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
@@ -160,11 +150,6 @@ const About = () => {
                 <div className="text">
                   Sit amet consecetur adeisce <br /> eiusmod tempor incide
                 </div>
-                <Link href="/about">
-                  <a>
-                    Read More <i className="far fa-arrow-right" />
-                  </a>
-                </Link>
               </div>
             </div>
             <div className="col-lg-3 col-md-6">
@@ -181,11 +166,6 @@ const About = () => {
                 <div className="text">
                   Sit amet consecetur adeisce <br /> eiusmod tempor incide
                 </div>
-                <Link href="/about">
-                  <a>
-                    Read More <i className="far fa-arrow-right" />
-                  </a>
-                </Link>
               </div>
             </div>
           </div>
