@@ -28,7 +28,6 @@ const Index = () => {
       {/*End Banner Section One */}
       {/* section about */}
       <section className="about">
-        ]
         <div className="logo">
           {/* <img src="assets/images/resource/icon-3.png" alt="" /> */}
         </div>
