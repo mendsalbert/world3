@@ -25,7 +25,7 @@ const DonationDetails = () => {
           return d.donationId.toString() == id;
         });
         console.log("f_res", f_res);
-        setDonation(f_res[0]);
+        setDonation(f_res);
       } catch (error) {
         console.log(error);
       }
