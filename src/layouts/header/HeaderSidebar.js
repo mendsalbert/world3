@@ -38,47 +38,6 @@ const HeaderSidebar = ({ open, close }) => {
                 </ul>
               </div>
             </div>
-            <div className="widget contact-widget">
-              <div className="footer-widget-item">
-                <div className="title">
-                  <h2>About Us</h2>
-                </div>
-                <div className="our-info">
-                  <div className="text">
-                    <p>
-                      Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusanum doloremue laudantiue totame
-                    </p>
-                  </div>
-                </div>
-                <div className="icon-list">
-                  <ul>
-                    <li>
-                      <div className="icon">
-                        <i className="far fa-map-marker-alt" />
-                      </div>
-                      <div className="text">
-                        4486 Richards Avenue, Modesto CA - 95354
-                      </div>
-                    </li>
-                    <li>
-                      <div className="icon">
-                        <i className="far fa-envelope" />
-                      </div>
-                      <div className="text">hotline@gmail.com</div>
-                    </li>
-                    <li>
-                      <div className="icon">
-                        <i className="far fa-phone" />
-                      </div>
-                      <div className="text">
-                        4486 Richards Avenue, Modesto CA - 95354
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
