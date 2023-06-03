@@ -51,7 +51,7 @@ const About = () => {
                   For Life. We believe that by addressing these fundamental
                   needs, we can create a better future for all.
                 </div>
-                <ul>
+                {/* <ul>
                   <li>
                     <i className="fas fa-check" />
                     We Save Natural Pollutants
@@ -77,7 +77,7 @@ const About = () => {
                       Become a Volunteer <i className="far fa-arrow-right" />
                     </a>
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
