@@ -138,7 +138,13 @@ const About = () => {
                 </div>
                 <h4>Health &amp; Medicine</h4>
                 <div className="text">
-                  Sit amet consecetur adeisce <br /> eiusmod tempor incide
+                  We recognize the importance of quality healthcare services and
+                  medical assistance for those in need. Through our Health &
+                  Medicine initiatives, we strive to support healthcare
+                  projects, medical research, and initiatives that improve the
+                  overall well-being of individuals and communities. By
+                  investing in healthcare, we can contribute to healthier lives
+                  and stronger communities.{" "}
                 </div>
               </div>
             </div>
