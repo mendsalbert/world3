@@ -280,7 +280,7 @@ const Index = () => {
           <div className="text text-center mb-35"></div>
           <div className="inner-box">
             <div className="link-btn">
-              <Link href="/contact">
+              <Link href="/donation-grid">
                 <a className="primary_btn-one">
                   Make Donation
                   <i className="far fa-heart" />
