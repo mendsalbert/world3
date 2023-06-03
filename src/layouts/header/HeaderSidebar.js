@@ -20,37 +20,19 @@ const HeaderSidebar = ({ open, close }) => {
               <div className="footer-widget-news">
                 <ul>
                   <li>
-                    <div className="img-box">
-                      <img src="assets/images/resource/footer-1.jpg" alt="" />
-                    </div>
                     <div className="text-box">
                       <p>
                         <span className="far fa-calendar-alt" />
                         24th January 2021
                       </p>
-                      <h6>
-                        <a href="#">
-                          We can build anything ni <br />
-                          hill ground or building.
-                        </a>
-                      </h6>
                     </div>
                   </li>
                   <li>
-                    <div className="img-box">
-                      <img src="assets/images/resource/footer-2.jpg" alt="" />
-                    </div>
                     <div className="text-box">
                       <p>
                         <span className="far fa-calendar-alt" />
                         24th January 2021
                       </p>
-                      <h6>
-                        <a href="#">
-                          We can build anything ni <br />
-                          hill ground or building.
-                        </a>
-                      </h6>
                     </div>
                   </li>
                 </ul>
