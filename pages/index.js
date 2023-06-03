@@ -277,11 +277,7 @@ const Index = () => {
             <span>Small</span> Donations <span>Make</span> Bigger{" "}
             <span>Impact</span>
           </div>
-          <div className="text text-center mb-35">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium totam rem <br /> aperiam, eaque
-            ipsa quae abillo inventore veritatis et quasi architecto beatae
-          </div>
+          <div className="text text-center mb-35"></div>
           <div className="inner-box">
             <div className="link-btn">
               <Link href="/contact">
