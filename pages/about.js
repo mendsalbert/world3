@@ -387,58 +387,8 @@ const About = () => {
         </div>
       </section>
       {/* Partner section */}
-      {/* <PatnerLogoSlider /> */}
+      {/* <Patne rLogoSlider /> */}
       {/* volunteer section */}
-      <section className="volunteer-section">
-        <div className="theme_container">
-          <div className="row">
-            <div className="col-lg-6">
-              <div className="volunteer-block">
-                <div className="shape">
-                  <img src="assets/images/resource/icon-2.png" alt="" />
-                </div>
-                <img src="assets/images/resource/volan.jpg" alt="" />
-                <div className="icon">
-                  <img src="assets/images/resource/icon.png" alt="" />
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="shape-two">
-                <img src="assets/images/resource/icon-3.png" alt="" />
-              </div>
-              <div className="volunteer-block-two">
-                <div className="title-box">
-                  <div className="sub-title mb-20">
-                    <span className="title-sep-left">
-                      <img src="assets/images/resource/icon-4.png" alt="" />
-                    </span>
-                    Become a Volunteer
-                  </div>
-                  <h2 className="sec-title mb-20">
-                    Are You Ready to Join <br /> Our Team Member ?{" "}
-                  </h2>
-                </div>
-                <div className="text">
-                  Sed ut perspiciatis unde omnis natus error voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam eaque
-                  ipsa quae ab illo inventore veritatis et architecto beatae
-                  vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                  voluptas sit aspernatur
-                </div>
-                <div className="link-btn">
-                  <Link href="/volunteer">
-                    <a className="primary_btn-one">
-                      Become a Volunteer
-                      <i className="far fa-heart" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </Layouts>
   );
 };
