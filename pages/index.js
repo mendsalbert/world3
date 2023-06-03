@@ -291,14 +291,6 @@ const Index = () => {
               <div className="icon">
                 <i className="flaticon-phone" />
               </div>
-              <div className="contact-number">
-                <div className="number">
-                  Hotline <br />
-                  <a href="tel:+012(345)6789">
-                    <span>+012(345) 6789</span>
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
         </div>
