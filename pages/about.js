@@ -368,8 +368,16 @@ const About = () => {
                       <i className="flaticon-quote" />
                     </div>
                     <div className="text">
-                      Sed ut perspiciatis unde omnis natus <br /> error
-                      voluptatem accusantium dolorem laudantiums totam aperiam
+                      "I have been a donor with Charity Foundation for several
+                      years now, and I am continually impressed by their
+                      dedication and impact. Through their Pure Food & Water
+                      initiative, I have witnessed firsthand the positive
+                      changes in communities that now have access to clean
+                      drinking water and sustainable agriculture practices. It
+                      is truly inspiring to see how a simple donation can make a
+                      significant difference in improving lives. I am proud to
+                      be a part of Charity Foundation's mission and highly
+                      recommend supporting their cause
                     </div>
                     <div className="author-info">
                       <div className="author-content">
