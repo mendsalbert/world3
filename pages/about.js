@@ -182,7 +182,14 @@ const About = () => {
                 </div>
                 <h4>Charity For Live</h4>
                 <div className="text">
-                  Sit amet consecetur adeisce <br /> eiusmod tempor incide
+                  Charity For Life encompasses our commitment to supporting
+                  various charitable causes and initiatives that address
+                  critical societal issues. From disaster relief efforts to
+                  social welfare programs, we collaborate with trusted
+                  organizations to provide immediate assistance and long-term
+                  solutions to those in need. By standing together, we can bring
+                  hope, compassion, and positive change to lives across the
+                  globe.{" "}
                 </div>
               </div>
             </div>
