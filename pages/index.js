@@ -287,9 +287,7 @@ const Index = () => {
                 </a>
               </Link>
             </div>
-            <div className="contact-info">
-              <
-            </div>
+            <div className="contact-info"></div>
           </div>
         </div>
       </section>
