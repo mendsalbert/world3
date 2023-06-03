@@ -351,8 +351,10 @@ const About = () => {
                       <i className="flaticon-quote" />
                     </div>
                     <div className="text">
-                      Sed ut perspiciatis unde omnis natus <br /> error
-                      voluptatem accusantium dolorem laudantiums totam aperiam
+                      Thanks to Charity Foundation's Child Education program, I
+                      escaped poverty's grip. Scholarships and mentorship opened
+                      doors I never thought possible. Forever grateful for their
+                      belief in me.
                     </div>
                     <div className="author-info">
                       <div className="author-content">
