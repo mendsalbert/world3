@@ -218,7 +218,7 @@ const About = () => {
                   >
                     0
                   </span> */}
-                  <Counter end={5260} />
+                  <Counter end={5} />
                   <span className="plus">+</span>
                   <div className="text">
                     <p>Project Done</p>
@@ -245,7 +245,7 @@ const About = () => {
                   >
                     0
                   </span> */}
-                  <Counter end={7853} />
+                  <Counter end={10} />
                   <span className="plus">+</span>
                   <div className="text">
                     <p>Expert Volunteer</p>
@@ -273,7 +273,7 @@ const About = () => {
                     0
                   </span> */}
 
-                  <Counter end={8564} />
+                  <Counter end={7} />
                   <span className="plus">+</span>
                   <div className="text">
                     <p>Global Partners</p>
@@ -301,7 +301,7 @@ const About = () => {
                     0
                   </span> */}
 
-                  <Counter end={8962} />
+                  <Counter end={6} />
                   <span className="plus">+</span>
                   <div className="text">
                     <p>Raised Now</p>
