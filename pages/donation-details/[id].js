@@ -247,76 +247,7 @@ const DonationDetails = () => {
               </div>
               {/* End Sidebar Block */}
               {/* Start Sidebar Block */}
-              <div className="event-details-block-two">
-                <h4>
-                  Gallery &amp; Photo{" "}
-                  <img src="assets/images/resource/icon-4.png" alt="" />
-                </h4>
-                <div className="inner-box">
-                  <div className="wrapper-box">
-                    <div className="image">
-                      <img
-                        src="assets/images/resource/Event_Details_small.jpg"
-                        alt=""
-                      />
-                      <div className="overlay-link">
-                        <a
-                          href="assets/images/gallery/gallery-1"
-                          className="lightbox-image"
-                          data-fancybox="gallery"
-                        >
-                          <span className="fab fa-instagram" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="image">
-                      <img
-                        src="assets/images/resource/Event_Details_small-2.jpg"
-                        alt=""
-                      />
-                      <div className="overlay-link">
-                        <a
-                          href="assets/images/gallery/gallery-1"
-                          className="lightbox-image"
-                          data-fancybox="gallery"
-                        >
-                          <span className="fab fa-instagram" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="image">
-                      <img
-                        src="assets/images/resource/Event_Details_small-3.jpg"
-                        alt=""
-                      />
-                      <div className="overlay-link">
-                        <a
-                          href="assets/images/gallery/gallery-1"
-                          className="lightbox-image"
-                          data-fancybox="gallery"
-                        >
-                          <span className="fab fa-instagram" />
-                        </a>
-                      </div>
-                    </div>
-                    <div className="image">
-                      <img
-                        src="assets/images/resource/Event_Details_small-4.jpg"
-                        alt=""
-                      />
-                      <div className="overlay-link">
-                        <a
-                          href="assets/images/gallery/gallery-1"
-                          className="lightbox-image"
-                          data-fancybox="gallery"
-                        >
-                          <span className="fab fa-instagram" />
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
               {/* End Sidebar Block */}
             </div>
           </div>
