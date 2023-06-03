@@ -170,7 +170,7 @@ const Footer = ({ extraClass }) => {
               </ul>
               <div className="text">
                 <p>
-                  Copyright © {new Date().getFullYear()} Masden. All Rights
+                  Copyright © {new Date().getFullYear()} World3. All Rights
                   Reserved.
                 </p>
               </div>
