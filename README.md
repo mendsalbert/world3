@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" title="Project Initiator">
-    <img src=https://bafybeiglsbz4o762okbhtcuo3zlgp7sikx2jn55ovw2jwlfwgz5wxhdrn4.ipfs.w3s.link/_splash.png" width="20px" alt="Project Initiator"/>
+    <img src="https://bafybeiglsbz4o762okbhtcuo3zlgp7sikx2jn55ovw2jwlfwgz5wxhdrn4.ipfs.w3s.link/_splash.png" width="60px" alt="Project Initiator"/>
   </a>
 </p>
 <h1 align="center">VidisPark</h1>
@@ -10,83 +10,43 @@
     .
     <a href="https://vidispark.vercel.app/video/2r3BsJGm5upgoSUIZxPL" title="">🔗 Website</a>
     ·
-    <a href="https://github.com/mendsalbert/_vidispark" title="">📂 Repo</a>
+    <a href="https://github.com/mendsalbert/world3" title="">📂 Repo</a>
     ·
-    <a href="https://github.com/mendsalbert/_vidispark" title="🐛Report Bug/🎊Request Feature">🚀 Got Issue</a>
+    <a href="https://github.com/mendsalbert/world3" title="🐛Report Bug/🎊Request Feature">🚀 Got Issue</a>
 </p>
 
 ## Problem
 
-In today's digital age, content creators face numerous challenges that hinder their growth and success. These challenges include censorship, limited monetization options, and complex platform requirements. As a result, many talented creators struggle to reach their audience and generate income from their content. Consequently, creators are left with no choice but to join centralized platforms like YouTube, Twitch, and similar platforms.
+In the realm of charitable donations, various obstacles impede the seamless and effective support of causes. These obstacles include lack of transparency, limited donation options, and complex processes for both donors and beneficiaries. As a result, individuals who wish to make a difference face difficulties in finding trustworthy and efficient platforms to contribute to causes they care about. Consequently, the traditional donation landscape falls short in providing a seamless and rewarding experience for donors and charities alike.
 
 ## Solution: Vidispark and its Features
 
-Vidispark is a decentralized platform that empowers creators to produce online content across a wide range of categories, including:
+To address these challenges, our donation app harnesses the power of Chainlink's decentralized oracle network and smart contract technology. By integrating Chainlink services into our platform, we revolutionize the way people contribute to charitable causes with enhanced reliability, security, and transparency.
 
-- 🎭 Entertainment
-- 🎵 Music
-- ⚽ Sports
-- 🎮 Gaming
-- 📚 Education
-- 💪 Health and Fitness
-- 👗 Fashion and Beauty
+Through Chainlink's decentralized oracle network, our donation app ensures accurate and real-time data for various functionalities. For example, we leverage Chainlink Price Feeds to provide up-to-date and reliable conversion rates between different currencies, allowing donors to contribute in their preferred fiat or cryptocurrency. This ensures that the donation amounts are accurately reflected and enables seamless transactions for donors around the world.
 
-Vidispark enables creators to maintain full ownership of their content, addressing the issue of centralization in creative content distribution. The platform serves two main user groups: creators and users. Creators produce content based on user interests, and users can tip, bookmark, or save videos for future viewing.
+Additionally, our app utilizes Chainlink Keepers to automate important processes within our platform. We can set threshold-based triggers that automatically execute actions when certain donation milestones or events are reached. This streamlines operations and improves efficiency, enabling charities to focus more on their impactful work rather than manual monitoring.
 
-The Vidispark team has introduced its native token, **VDSP**, built on the Theta blockchain network. This token serves as a means of providing financial support to creators and functions as the primary cryptocurrency within the application.
+Chainlink's VRF (Verifiable Random Function) is employed to ensure fair and transparent distribution of rewards, incentives, or prizes within our donation app. By generating provably random and tamper-proof results, we enhance trust and integrity in the selection process, fostering a sense of fairness among donors and beneficiaries.
 
-Vidispark is available in two forms: a web platform and a mobile app. We prioritize user experience across both platforms to ensure seamless content consumption.
+With Chainlink's robust infrastructure and cutting-edge technology, our donation app provides a secure and reliable ecosystem for charitable giving. Donors can have peace of mind knowing that their contributions are accurately processed, securely handled, and allocated to the intended causes. Charities benefit from increased trust, transparency, and operational efficiency, allowing them to focus their resources on making a positive impact.
 
-Key features of Vidispark include:
--MetaVerse functionality
--AI assistance for content planning
--A marketplace where investors can promote their businesses to creators and streamers
-img of web and mob app
+By leveraging Chainlink services, our donation app revolutionizes the way individuals engage with charitable causes, creating a seamless, transparent, and trustworthy platform for donors and charities alike. Together, we can drive meaningful change and empower a global community of philanthropists to make a lasting impact on the world.
 
 ## Architecture and Technology Stack
 
-<img src="https://bafybeigkw4a3l4ucnmqyyi2s42rvjvm53cjtzo7dg72smixtpyljo7bphy.ipfs.w3s.link/Screenshot%202023-05-26%20at%205.34.08%20PM.png" alt="Sample Image" width="1000" style="width: 600px;">
-Vidispark is primarily built using JavaScript. All data stored within the application is decentralized. The web APIs power both the website and the mobile app. Images are stored on IPFS (InterPlanetary File System), while videos are stored on the ThetaVideoAPI. User and creator details are stored in a decentralized database provided by Weave. Creators also utilize OpenAI for content caption generation and planning. Additionally, Vidispark incorporates MetaVerse functionality from fox.com.
+Web3 is built using JavaScript. All data stored within the application is decentralized. User and creator details are stored on a ethereum blockchain.
 
 Technology Stack & Tools:
 
     -IDE: Visual Studio Code
     -Web Front-end and Back-end: Next.js, React.js
     -Backend: Next.js
-    -Database: Weave
     -File Storage: IPFS
-    -Videos: ThetaVideoAPI
-    -AI for content planning
 
 A detailed tutorial on how to upload content to Vidispark will be linked in the video or accessible through a provided link.
 
-    Features
-    For Creators:
-
-    -Sign up
-    -Check wallet balance
-    -Receive Vidispark native token (VDSP)
-    -View dashboard
-    -Utilize AI to generate content
-    -Update profile information
-    -Manage dashboard
-    -Follow other creators
-    -Advertise their content
-
-For Users:
-
-    -Sign up
-    -Check wallet balance
-    -Tip creators
-    -View videos
-    -Like videos
-    -Follow creators
-    -And many more features
-
-Below is the link to full technical paper (white paper)
-[whitepaper](https://vidispark.vercel.app/white-paper)
-
-Smart Contract Address - 0x7E2e3f0c33ebaC151C946395c6f888b014319d42
+Smart Contract Address - 0xdF3073768De7e417E55d764f881e144477d39b5e
 
 ## Prerequisite
 
@@ -103,7 +63,7 @@ Smart Contract Address - 0x7E2e3f0c33ebaC151C946395c6f888b014319d42
 1. Clone the repository
 
 ```Bash
-git clone https://github.com/mendsalbert/_vidispark
+git clone https://github.com/mendsalbert/world3
 ```
 
 2. Change the working directory
