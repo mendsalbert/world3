@@ -4,55 +4,70 @@ import Layouts from "../../src/layouts/Layouts";
 import { fiveItemCarousel } from "../../src/sliderProps";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
-import { addDonation, getDonations } from "../../utils/contract/queries";
+import {
+  addDonation,
+  convertToUSD,
+  getDonations,
+} from "../../utils/contract/queries";
 import Link from "next/link";
+import { BigNumber } from "ethers";
 
 const DonationDetails = () => {
   const router = useRouter();
   const { id } = router.query;
-  const [USDPrice, setUsdPrice] = useState(0);
   const [USDPricer, setUsdPriceR] = useState(0);
   const [donation, setDonation] = useState([]);
+  const [USDPrice, setUSDPrice] = useState(0);
+  const [donation_, setD] = useState([]);
 
   useEffect(() => {
-    console.log("idd------", id);
     const fetchDonations = async () => {
       try {
         let res = await getDonations();
         let f_res = res.filter((d) => {
-          console.log("d.donationId.toString()", d.donationId.toString());
-          console.log("id", id);
           return d.donationId.toString() == id;
         });
-        console.log("f_res", f_res);
+        let amountRaisedUSD = await fetchUSDPrice(
+          f_res[0].amountRaised.toString()
+        );
         setDonation(f_res[0]);
+        setD(f_res);
       } catch (error) {
         console.log(error);
       }
     };
-
     fetchDonations();
   }, []);
 
-  const getUSDPrice = (donationAmount, type) => {
+  const fetchUSDPrice = async (donationAmount) => {
+    console.log("runningggg");
     try {
-      convertToUSD(donationAmount)
-        .then((amountInUSD) => {
-          console.log(amountInUSD);
-          if (type == "raised") {
-            setUsdPrice(amountInUSD);
-          } else {
-            setUsdPriceR(amountInUSD);
-          }
-        })
-        .catch((error) => {
-          console.error(error);
-        });
+      const amountInWei = BigNumber.from(donationAmount);
+      const amountInUSD = await convertToUSD(amountInWei);
+      return amountInUSD;
     } catch (error) {
-      console.log(error);
+      console.error(error);
+      return null;
     }
   };
 
+  console.log(donation_);
+  useEffect(() => {
+    const updateUSDPrice = async () => {
+      const usdPrices = await Promise.all(
+        donation_.map(async (donation) => {
+          const amountRaisedUSD = await fetchUSDPrice(donation.amountRaised);
+          const targetAmountUSD = await fetchUSDPrice(donation.goal);
+          return { amountRaisedUSD, targetAmountUSD };
+        })
+      );
+      setUSDPrice(usdPrices);
+    };
+
+    updateUSDPrice();
+  }, [donation]);
+
+  console.log("USDPrice", USDPrice);
   function calculateDonationPercentage(targetAmount, amountRaised) {
     if (targetAmount <= 0) {
       return 0;
@@ -86,14 +101,12 @@ const DonationDetails = () => {
                   <h4 className="title">
                     Raised
                     <span>
-                      {" "}
-                      {getUSDPrice(donation?.amountRaised, "raised")}${}
-                      {USDPrice}
+                      {""}${USDPrice[0]?.amountRaisedUSD}
                     </span>
                   </h4>
                   <div className="bar">
                     <div className="count-text clr3">
-                      {calculateDonationPercentage(USDPricer, USDPrice)} %
+                      {/* {calculateDonationPercentage(USDPricer, USDPrice)} % */}
                     </div>
                     <div className="bar-inner bg4 count-bar" data-percent={40}>
                       {" "}
@@ -103,23 +116,23 @@ const DonationDetails = () => {
                     <li>
                       Goal
                       <span className="crl4">
-                        {" "}
-                        ${getUSDPrice(donation?.toGo, "togo")}
-                        {}
-                        {USDPricer}
+                        {""}${USDPrice[0]?.targetAmountUSD}
                       </span>
                     </li>
                     <li>
                       Raise
                       <span className="crl2">
-                        {" "}
-                        {getUSDPrice(donation?.amountRaised, "raised")}${}
-                        {USDPrice}
+                        {""}${USDPrice[0]?.amountRaisedUSD}
                       </span>
                     </li>
                     <li>
                       To Go
-                      <span className="crl3"> ${USDPricer - USDPrice}</span>
+                      <span className="crl3">
+                        {" "}
+                        $
+                        {USDPrice[0]?.targetAmountUSD -
+                          USDPrice[0]?.amountRaisedUSD}
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -251,31 +264,6 @@ const DonationDetails = () => {
               {/* End Sidebar Block */}
             </div>
           </div>
-        </div>
-      </section>
-      {/* Partner section */}
-      <section className="partner style-five">
-        <div className="theme_container">
-          <Swiper
-            {...fiveItemCarousel}
-            className="five-item-carousel owl-theme owl-carousel"
-          >
-            <SwiperSlide className="image">
-              <img src="../assets/images/resource/cta-6.png" alt="" />
-            </SwiperSlide>
-            <SwiperSlide className="image">
-              <img src="../assets/images/resource/cta-7.png" alt="" />
-            </SwiperSlide>
-            <SwiperSlide className="image">
-              <img src="../assets/images/resource/cta-8.png" alt="" />
-            </SwiperSlide>
-            <SwiperSlide className="image">
-              <img src="../assets/images/resource/cta-9.png" alt="" />
-            </SwiperSlide>
-            <SwiperSlide className="image">
-              <img src="../assets/images/resource/cta-10.png" alt="" />
-            </SwiperSlide>
-          </Swiper>
         </div>
       </section>
     </Layouts>
