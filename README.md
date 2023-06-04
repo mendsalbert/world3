@@ -69,7 +69,7 @@ git clone https://github.com/mendsalbert/world3
 2. Change the working directory
 
 ```Bash
-cd vidispark
+cd world3
 ```
 
 3. Start the local Hardhat node
@@ -96,7 +96,8 @@ npm run start
 
 The chain ID should be 365. If you have a localhost rpc set up, you may need to overwrite it.
 
-<p align="center" title="Project Initiator"><img src="https://bafybeieuh2n62zhzw666m3fe77cc5xlandpfebcmtwyugdqf5b2nkxjmae.ipfs.w3s.link/Screenshot%202023-05-31%20at%2010.14.09%20AM.png" alt="Project Initiator"/></p>
+<p align="center" title="Project Initiator"><img src=
+"https://i.ibb.co/9Hdk924/Screenshot-2023-06-04-at-10-19-55-PM.png" alt="Project Initiator"/></p>
 
 To deploy to Polygon test or main networks, update the configurations located in hardhat.config.js to use a private key and, optionally, deploy to a private RPC like Infura.
 
@@ -111,9 +112,10 @@ module.exports = {
     hardhat: {
       chainId: 365,
     },
-    theta: {
-      url: 'https://eth-rpc-api-testnet.thetatoken.org/rpr',
+    mumbai: {
+      url: "https://rpc-mumbai.maticvigil.com",
       accounts: [privateKey],
+      network_id: 80001,
     },
   },
   solidity: {
@@ -136,8 +138,6 @@ module.exports = {
 
 - [TailwindCss](https://tailwindcss.com/ "Tailwind Css"): as Main Coding Language for styling UI components
 
-- [Theta Video API](https://www.thetavideoapi.com/): as the main API for storing videos
-
 - [IPFS](https://ipfs.tech/ "IPFS"): For Storing of files
 
 - [Web3 Storage](https://www.google.com/search?q=web3storage "Web3 Storage"): For Storing of files
@@ -146,39 +146,42 @@ module.exports = {
 
 - [Git](https://git-scm.com/ "Git") : For Version Control System
 
-## Value to the Theta Ecosystem
-
-The Theta ecosystem has experienced rapid growth within the world of decentralization. To ensure its stability, diverse applications and systems need to be implemented. Video and streaming platforms have billions of users, and Vidispark believes the future of decentralization has arrived. By building on the Theta ecosystem, Vidispark contributes to its growth and development.
-
 ## Learnings and Challenges
 
-During our journey to develop a fully decentralized video and streaming platform, we discovered that existing platforms typically have at least one centralized component. We take pride in being the first fully decentralized company to implement a decentralized video streaming platform. However, this presented various challenges, including integrating new decentralized platforms like WeaveDB, which required extensive collaboration with the Weave team via GitHub and direct contact.
+During our journey to develop a fully decentralized donation platform, we discovered that existing donation platforms typically rely on centralized systems, which come with their own limitations and challenges. With a strong vision for a transparent and secure donation ecosystem, we set out to build the first fully decentralized donation contract.
 
-Each challenge we encountered provided valuable lessons. Despite being college students, our team's passion and dedication enabled us to build this powerful and amazing project within a short timeframe.
+However, this ambitious goal came with its share of challenges. We had to overcome technical complexities and ensure seamless integration of decentralized technologies such as Chainlink's oracle network and smart contracts. Collaborating with the Chainlink community and leveraging their expertise on platforms like GitHub, we were able to successfully integrate Chainlink services into our donation contract.
 
-We gained an in-depth understanding of the Theta ecosystem and how to utilize its components to solve real-world problems.
+As a team of passionate developers, we embraced these challenges head-on and leveraged our expertise to create a robust and efficient donation contract. Through extensive research, collaboration, and dedication, we were able to navigate the complexities of decentralized systems and develop a platform that provides transparent and secure donation experiences.
+
+We gained a deep understanding of the blockchain ecosystem, particularly in the context of donations, and harnessed the power of smart contracts to ensure the integrity of the donation process. Our donation contract leverages Chainlink's oracle network to provide real-time data, ensuring accurate conversion rates and enhancing transparency for donors.
+
+With our fully decentralized donation contract, we aim to revolutionize the way people contribute to charitable causes. By eliminating the reliance on centralized intermediaries and embracing the power of blockchain technology, we empower donors to make a direct and meaningful impact while ensuring the utmost security and transparency.
+
+Through our dedication and commitment to decentralization, we have created a platform that enables individuals and organizations to support causes they believe in with complete trust and confidence. Together, we can shape a future where charitable donations are truly transparent, efficient, and transformative.
 
 ## What's next for Vidispark
 
-    Q3 2023:
+Q3 2023:
 
-    - Vidispark Mainnet Launch
-    - Vidispark Metaverse Launch
-    - Partnerships with Content Creators & Streamers
+    Mainnet Launch of our Decentralized Donation Platform
+    Integration of Chainlink Oracle Network for Real-Time Data
+    Expansion of Partnerships with Charitable Organizations
 
 Q4 2023:
 
-    - Marketing Campaign & Listing on Prominent Exchanges
-    - Expanded Partnerships & Continuous Development
+    Marketing Campaign to Raise Awareness about our Decentralized Donation Platform
+    Listing on Prominent Exchanges for Increased Accessibility
+    Continuous Development and Enhancements based on User Feedback
 
 Q1 2024:
 
-    - Initial Development of Metaverse and VidiCratch
-    - Vidispark Token Public Sale
-    - Distribution of NFTs & Virtual Studios
+    Introduction of NFT-based Donation Campaigns
+    Public Sale of Donation Tokens for Community Participation
+    Distribution of Unique NFTs as a Gesture of Gratitude
 
 Q2 2024:
 
-    - Hosting of Play-to-Earn Tournaments
-    - Creation of Virtual Studios & Virtual Lands
-    - Development of Staking and Reward System
+    Launching Play-to-Donate Initiatives and Charity Events
+    Development of Staking and Reward System for Donors
+    Creation of Virtual Donation Centers for Enhanced Engagement
