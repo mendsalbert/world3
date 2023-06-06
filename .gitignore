@@ -18,7 +18,8 @@ secret.txt
 /.next/
 /out/
 .next
-
+dashboard
+./dashboard
 # production
 /build
 
