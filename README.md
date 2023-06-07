@@ -6,7 +6,7 @@
 <h1 align="center">VidisPark</h1>
 
 <p align="center">
-    <a href="https://www.youtube.com/watch?v=FlKs6_5q5hk" title="">🖥️ Video</a>
+    <a href="https://youtu.be/0Z20mGKqL6A" title="">🖥️ Video</a>
     .
     <a href="https://world3-steel.vercel.app/" title="">🔗 Website</a>
     ·
