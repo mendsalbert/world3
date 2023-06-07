@@ -245,7 +245,7 @@ const DonationGrid = () => {
           </div>
         </div>
       </section>
-      <PatnerLogoSlider />
+      {/* <PatnerLogoSlider /> */}
     </Layouts>
   );
 };
