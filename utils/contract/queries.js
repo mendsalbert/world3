@@ -97,6 +97,7 @@ export async function addDonation(donationId, amount) {
     const data = await contractObj.addDonation(donationId, weiAmount);
 
     const receipt = await data.wait();
+    alert("Thank you for donating");
     return receipt;
   } catch (e) {
     return parseErrorMsg(e);
